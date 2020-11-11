@@ -1,7 +1,9 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
-  for (int counter = 0; counter < 5; counter += 1) {
-    print("hallo");
+  int i = 0;
+  while(i < 5) {
+    print("hallo ke " + i.toString());
+    i += 1;
   }
 }
