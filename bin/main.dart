@@ -2,8 +2,8 @@ import 'dart:io';
 
 void main(List<String> arguments) {
   int i = 0;
-  while(i < 5) {
-    print("hallo ke " + i.toString());
+  do{
+    print('do do do ke ' + i.toString());
     i += 1;
-  }
+  } while (i < 5);
 }
