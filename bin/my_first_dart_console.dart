@@ -4,11 +4,16 @@ void main(List<String> arguments) {
   String input = stdin.readLineSync();
   int number = int.tryParse(input);
 
-  if (number > 0) {
-    print('positif');
-  } else if (number < 0) {
-    print('negatif');
-  } else {
-    print('nol');
+  switch(number) {
+    case 1:
+      print('satu');
+    break;
+    case 2:
+      print('dua');
+    break;
+    case 3:
+      print('tiga');
+    break;
+
   }
 }
