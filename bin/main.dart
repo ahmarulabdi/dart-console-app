@@ -1,9 +1,14 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
-  int i = 0;
-  do{
-    print('do do do ke ' + i.toString());
-    i += 1;
-  } while (i < 5);
-}
+  int a, b;
+  a = 10;
+  b = a++;
+
+  print("a " + a.toString());
+  print("b " + b.toString());
+
+  // expected output
+  // output a 11
+  // b 10
+}g
